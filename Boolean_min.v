@@ -15,5 +15,9 @@ and(p,bdash,ddash);
 and(q,adash,b,d);
 and(r,a,b,cdash);
 or(f1,p,q,r);
-//type code for f2 as like f1
+not(ydash,y);
+and(s,ydash,z);
+and(t,x,y);
+and(u,w,y);
+or(f2,s,t,u);  
 endmodule
